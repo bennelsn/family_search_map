@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13">
+
+
+        <TextView
+            android:text="Life Story Lines"
+            android:textSize="18dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_life" />
+
+        <Switch
+
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/swith_life"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13">
+
+
+        <TextView
+            android:text="Family Tree Lines"
+            android:textSize="18dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1" />
+
+        <Spinner
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_family" />
+
+        <Switch
+
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch_family"
+            android:layout_weight="1"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13">
+
+
+        <TextView
+            android:text="Spouse Lines"
+            android:textSize="18dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1" />
+
+        <Spinner
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_spouse" />
+
+        <Switch
+
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch_spouse"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13">
+
+
+        <TextView
+            android:text="Map Type"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/map_type_spinner" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13"
+       >
+
+
+        <TextView
+            android:text="Re-Sync Data"
+
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resync"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Resync"
+            android:textStyle="bold"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_resync"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13"
+        >
+
+
+        <TextView
+            android:text="Logout"
+            android:textSize="18dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout"
+            android:layout_weight="1.44" />
+
+        <Button
+            android:text="Logout"
+            android:textStyle="bold"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_logout"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
